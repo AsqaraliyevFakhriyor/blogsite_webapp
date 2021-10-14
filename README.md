@@ -1,10 +1,12 @@
 # Simple `BLOG SITE🌐` in python🐍 `django` firemwork!
 
 
-### [!] project maded with [mohirev.uz](https://www.mohirdev.uz) tutorials!
+### Project maded with [mohirev.uz](https://www.mohirdev.uz) tutorials!
 
->*INFO* Blog web site, which users can read, change even delete postes
->>web app has `authorization🔐` module so users can signup 
+>*INFO:* Blog web site, which users can read, change even delete postes
+>>web app has `authorization🔐` module so users can signup
+
+
 >**admin** can *post, delete, edit* posts and **`controls`** *users* and their *data*
 
 
@@ -54,7 +56,8 @@ source venv/Script/active
 >  You must change `pip` to `pip3` if you are **Mac** or **Linux** user
 
 
-### 3. Seting DATABASE,  *django* uses !`sqlite3`🗃️
+### 3. Seting DATABASE, *django* uses !`sqlite3`🗃️
+
 ```bash
 
     touch 'db.sqlite3'
@@ -73,7 +76,9 @@ source venv/Script/active
 ```
 
 # DISCLAIMER ❗❗❗
+
 > ! This project maded for only learning purposes!,
 >  there maybe drowbacks, bugs or even security problems!
+
 >> I am (Asqaraliyev Faxriyor) is not responsible for
 >> any issues with `project`
