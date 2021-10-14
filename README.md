@@ -3,15 +3,15 @@
 
 ### [!] project maded with [mohirev.uz](https://www.mohirdev.uz) tutorials!
 
->[INFO] Blog web site, which you can read news posted by admin, app
-> has `authorization🔐` module so users can signup, admin can 
-> *post, delete, edit* news and `controls` users at the same time
+>*INFO* Blog web site, which users can read, change even delete postes
+>>web app has `authorization🔐` module so users can signup 
+>**admin** can *post, delete, edit* posts and **`controls`** *users* and their *data*
 
 
 
 
 ## Dependeces 📌
-1. python-3.9.2+
+1. python-3.9.2(recommended)
 
 
 ### Cloning from GitHub
@@ -54,7 +54,7 @@ source venv/Script/active
 >  You must change `pip` to `pip3` if you are **Mac** or **Linux** user
 
 
-### 3. Seting **DATABASE**🗂 django uses !`sqlite3`🗃️
+### 3. Seting DATABASE,  *django* uses !`sqlite3`🗃️
 ```bash
 
     touch 'db.sqlite3'
@@ -75,5 +75,5 @@ source venv/Script/active
 # DISCLAIMER ❗❗❗
 > ! This project maded for only learning purposes!,
 >  there maybe drowbacks, bugs or even security problems!
-> I am (Asqaraliyev Faxriyor) is not responsible for
-> any issues with `project`
+>> I am (Asqaraliyev Faxriyor) is not responsible for
+>> any issues with `project`
