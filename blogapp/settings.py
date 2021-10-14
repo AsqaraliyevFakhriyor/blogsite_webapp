@@ -26,7 +26,7 @@ SECRET_KEY = 'am(q_bxm7j7@n4+k7u8id$fa26+*^f_#tek*45x6)q42xth6$x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://blogapp-21.herokuapp.com']
 
 
 # Application definition
@@ -78,13 +78,24 @@ WSGI_APPLICATION = 'blogapp.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
+} 
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd9dof0md875lps',
+        'USER': 'dwlshykxhqfnfi',
+        'PASSWORD': '6d3bc7858427fb0c53773307e1ad09068a236669355a6b52d1c259757e6e08c8',
+        'HOST': 'ec2-54-208-96-16.compute-1.amazonaws.com',
+        'PORT': '5432',
+    }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
